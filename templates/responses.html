@@ -1,0 +1,60 @@
+<!-- templates/responses.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title font = "Garamond">Saved Responses</title>
+    <style>
+        body{
+            backgroud-color: PapayaWhip;
+            margin: 0;
+            padding: 0;
+        }
+
+        #generatedText {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: GhostWhite;
+            font-family: Garamond, serif;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            font-family: inherit;
+            margin: 0;
+            padding: 0;
+        }
+        #Responses{
+            margin : 10px;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 20px;
+            backgroud-color: PapayaWhip;
+            font-family: Monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id = "Prompts" calss = "container">
+        <h2> Suggestions for you </h2>
+    </div>
+    <div id="generatedText" style="background-color: rgba(255, 255, 255, 0.8); padding: 10px; border-radius: 10px;">
+        {% if generated_text %}
+        <h3>Generated Text</h3>
+        {% for generated_text in generated_text %}
+            <strong> Email {{loop.index }}: </strong>
+            <p>{{ generated_text }}<p>
+                
+            {% endfor %}
+        {% endif %}
+    </div>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Emails Using AI</title>
+    
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            font-family: Garamond, serif;
+            margin: 0;
+            padding: 0;
+            background-color: PapayaWhip;
+            
+
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            background-color: GhostWhite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        h1 {
+            text-align: center;
+            font-family: Garamond, serif;
+            margin: 0;
+            padding: 5px; 
+            
+        }
+
+        form {
+            padding: 10px;
+            opacity: 0.7;
+            border-radius: 10px;
+            transition: background-color 0.3s ease-in-out; 
+        }
+        
+        form:hover { 
+            opacity: 1.0;
+        }
+
+        fieldset {
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            align: center;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        textarea{
+            width: 100;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Create Emails using AI</h1>
+    <h2> Tell our AI about your business by answering these questions and we will handle the rest!!</h2>
+    <div class = "container">
+    <form action="/submit" method="post">
+       <label  for = "question1"> What is your campaign goal </label><br>
+       <select id = "question1" name = "q1">
+        <option value = "0"> Convinve Users to buy your product </option>
+        <option value = "1"> Recover Churned Users </option>
+        <option value = "2"> Onboard Users </option>
+        <option value = "3"> Share product updates </option>
+       </select><br><br><br>
+
+        <label for = "question2"> What tone do you want your email to be in </label><br>
+        <select id = "question2" name = "q2">
+            <option value = "0"> Formal </option>
+            <option value = "1"> Informal </option>
+        </select><br><br><br>
+
+        <label for = "business_model"> Select Your Business Model </label><br>
+        <select id = "business_model" name = "business_model">
+        <option value = "Marketing"> Marketing Agency </option>
+        <option value = "Advertising"> Advertising Firm </option>
+        <option value = "Mobile"> Mobile Salesman </option>
+    </select><br><br><br>
+
+    <label for = "addText"> Tell us more about your business Model and your offers </label>
+    <textarea id ="addText" name = "addText" rows ="4" placeholder = "Tell me more about it"></textarea>
+    <br><br>
+     <button type="submit">Generate Campaign</button> <br><br>
+    </form>
+    </div>
+</body>
+</html>
+
