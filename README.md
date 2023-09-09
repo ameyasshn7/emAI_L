@@ -21,7 +21,7 @@ This web application, developed using Python Flask for the backend and HTML5/CSS
 
 4. **Run the Application:** Execute the following command to start the Flask app:
    ```bash
-   python app.py
+   python newapp.py
    ```
 
 5. **Access the App:** Open your web browser and go to `http://localhost:5000` to access the application.
