@@ -13,7 +13,7 @@ This web application, developed using Python Flask for the backend and HTML5/CSS
 - **Easy Configuration:** Detailed instructions on configuring and running the project are provided below.
 
 ## Setup Instructions
-1. **Clone the Repository:** Start by cloning this repository to your local machine using `git clone [repository_url]`.
+1. **Clone the Repository:** Start by cloning this repository to your local machine using `git clone https://github.com/ameyasshn7/emAI_L.git`.
 
 2. **Install Dependencies:** Navigate to the project directory and install the required Python dependencies by running `pip install -r requirements.txt`.
 
