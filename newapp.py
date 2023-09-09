@@ -5,7 +5,7 @@ import json
 
 #setting up global variables
 app = Flask(__name__)
-API_KEY = 'AIzaSyD3sr6d2cqqiJTpJcg4wJTEP3ADYiBvGGY'
+API_KEY = 'YOUR_API_KEY'
 palm.configure(api_key = API_KEY)
 text = ""
 user_responses = {}
