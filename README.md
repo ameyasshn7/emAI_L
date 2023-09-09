@@ -17,7 +17,7 @@ This web application, developed using Python Flask for the backend and HTML5/CSS
 
 2. **Install Dependencies:** Navigate to the project directory and install the required Python dependencies by running `pip install -r requirements.txt`.
 
-3. **API Key Setup:** You will need to obtain a Google Palm API key and add it to your project as an environment variable. Refer to the [official documentation](https://developers.google.com/palm) for guidance.
+3. **API Key Setup:** You will need to obtain a Google Palm API key and add it to your project as an environment variable. Refer to the [official documentation](https://developers.generativeai.google/) for guidance.
 
 4. **Run the Application:** Execute the following command to start the Flask app:
    ```bash
