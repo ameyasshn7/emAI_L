@@ -36,8 +36,6 @@ This web application, developed using Python Flask for the backend and HTML5/CSS
 ## Contributors
 - Ameyassh Nagarajan
 
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For any inquiries or feedback, please contact ameyasshn7@gmail.com.
