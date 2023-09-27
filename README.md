@@ -2,7 +2,7 @@
 
 ---
 
-# Project Name: [emAI_L](https://recommender-nx04.onrender.com/)
+# Project Name: emAI_L
 
 ## Overview
 This web application, developed using Python Flask for the backend and HTML5/CSS for the frontend, is designed to leverage Google's Palm API to generate emails for brand marketing. This README provides essential information about the project, its functionalities, and how to set it up and use it.
